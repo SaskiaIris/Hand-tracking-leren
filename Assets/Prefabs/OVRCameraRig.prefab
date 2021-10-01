@@ -556,7 +556,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 1870938896605422, guid: 835e735ca71bf78459fb2cababd74112, type: 3}
       propertyPath: m_Name
-      value: OVRHandPrefab
+      value: OVRHandPrefabRight
       objectReference: {fileID: 0}
     - target: {fileID: 4453513310108136, guid: 835e735ca71bf78459fb2cababd74112, type: 3}
       propertyPath: m_RootOrder
@@ -602,6 +602,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 114428879332287356, guid: 835e735ca71bf78459fb2cababd74112, type: 3}
+      propertyPath: HandType
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 114567484643301796, guid: 835e735ca71bf78459fb2cababd74112, type: 3}
       propertyPath: _skeletonType
       value: 1
@@ -626,7 +630,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 1870938896605422, guid: 835e735ca71bf78459fb2cababd74112, type: 3}
       propertyPath: m_Name
-      value: OVRHandPrefab
+      value: OVRHandPrefabLeft
       objectReference: {fileID: 0}
     - target: {fileID: 4453513310108136, guid: 835e735ca71bf78459fb2cababd74112, type: 3}
       propertyPath: m_RootOrder
