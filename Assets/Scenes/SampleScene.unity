@@ -316,7 +316,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 163164638}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0.061, y: 0.879, z: 0.522}
+  m_LocalPosition: {x: -0.13, y: 0.879, z: 1}
   m_LocalScale: {x: 0.2, y: 0.2, z: 0.2}
   m_Children:
   - {fileID: 2141059385}
@@ -351,7 +351,7 @@ MonoBehaviour:
           m_FloatArgument: 0
           m_StringArgument: 
           m_BoolArgument: 0
-        m_CallState: 2
+        m_CallState: 1
   contactEvent:
     m_PersistentCalls:
       m_Calls:
@@ -366,7 +366,7 @@ MonoBehaviour:
           m_FloatArgument: 0
           m_StringArgument: 
           m_BoolArgument: 0
-        m_CallState: 2
+        m_CallState: 1
   actionEvent:
     m_PersistentCalls:
       m_Calls:
@@ -381,7 +381,7 @@ MonoBehaviour:
           m_FloatArgument: 0
           m_StringArgument: 
           m_BoolArgument: 0
-        m_CallState: 2
+        m_CallState: 1
   defaultEvent:
     m_PersistentCalls:
       m_Calls:
@@ -396,7 +396,7 @@ MonoBehaviour:
           m_FloatArgument: 0
           m_StringArgument: 
           m_BoolArgument: 0
-        m_CallState: 2
+        m_CallState: 1
 --- !u!114 &163164644
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -555,7 +555,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 508645403}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: -0.5, z: 0}
+  m_LocalPosition: {x: 0, y: -0.375, z: 0}
   m_LocalScale: {x: 1, y: 0.25, z: 1}
   m_Children: []
   m_Father: {fileID: 163164642}
@@ -884,7 +884,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4344865891687486, guid: 2ced187cdc1b6b94da2fd30a37e8bc41, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 0.49675
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4344865891687486, guid: 2ced187cdc1b6b94da2fd30a37e8bc41, type: 3}
       propertyPath: m_LocalRotation.w
@@ -1152,6 +1152,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 1624059673205495214, guid: 50617b5e10ebe0a45817db95dd3bf9ea, type: 3}
+      propertyPath: _meshType
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 1655479363964456432, guid: 50617b5e10ebe0a45817db95dd3bf9ea, type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
@@ -1203,6 +1207,10 @@ PrefabInstance:
     - target: {fileID: 4362630663369615788, guid: 50617b5e10ebe0a45817db95dd3bf9ea, type: 3}
       propertyPath: m_Name
       value: OVRCameraRig
+      objectReference: {fileID: 0}
+    - target: {fileID: 4362630663379295304, guid: 50617b5e10ebe0a45817db95dd3bf9ea, type: 3}
+      propertyPath: _colorGamut
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 5936607438971689917, guid: 50617b5e10ebe0a45817db95dd3bf9ea, type: 3}
       propertyPath: m_Materials.Array.data[0]
